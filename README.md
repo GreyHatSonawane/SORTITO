@@ -1,51 +1,107 @@
+<!-- SORTITO README - Modern & Cool -->
 
-# Problem Statement – SORTITO
+<p align="center">
+  <img src="logo.png" alt="SORTITO Logo" width="120" height="120" style="border-radius: 20px;">
+</p>
 
-## The Messy Folder Problem
+<h1 align="center">SORTITO</h1>
+<p align="center">
+  <strong>Desktop File Organizer – Recursively sort videos & photos in one click.</strong>
+</p>
 
-Every digital user has experienced it: a “Downloads” folder (or camera roll, or external drive) filled with a chaotic mix of videos, photos, documents, and random files. Over time, the number of files grows, and finding a specific video or photo becomes a painful, time‑consuming task.
+<p align="center">
+  <a href="https://github.com/yourusername/sortito/releases/latest">
+    <img src="https://img.shields.io/badge/Download%20Latest-Exe-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows">
+  </a>
+  <a href="https://github.com/yourusername/sortito">
+    <img src="https://img.shields.io/github/stars/yourusername/sortito?style=for-the-badge&logo=github" alt="GitHub stars">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative" alt="MIT License">
+  </a>
+</p>
 
-**Typical problems:**
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Tkinter-GUI-ff69b4?style=flat-square&logo=tkinter" alt="Tkinter">
+  <img src="https://img.shields.io/badge/CustomTkinter-Modern-1f425f?style=flat-square" alt="CustomTkinter">
+  <img src="https://img.shields.io/badge/Pillow-Images-008cba?style=flat-square&logo=pillow" alt="Pillow">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square" alt="Cross-platform">
+</p>
 
-- Videos and photos are scattered across dozens of subfolders, often with duplicate or unhelpful names.
-- Manual sorting is tedious, error‑prone, and takes hours.
-- Existing file managers offer basic sorting (by date, size, name), but not by **content type recursively**.
-- Users often give up, leaving their media disorganised, which leads to:
-  - Wasted time searching for files.
-  - Accidental deletion of important media.
-  - Inability to back up only the media files.
-  - Difficulty sharing specific collections (e.g., “all videos from 2023”).
+---
 
-## Existing Solutions & Their Gaps
+## 📥 Download
 
-| Solution | Shortcomings |
-|----------|---------------|
-| Manual drag‑and‑drop | Extremely slow, impossible for large folder trees. |
-| Scripts (command line) | Not user‑friendly; require technical knowledge. |
-| Cloud storage apps | Limited to synced folders; no recursive sorting. |
-| Duplicate file finders | Only find duplicates, don’t organise by type. |
-| Media managers (e.g., Lightroom) | Overkill, expensive, complex for simple organisation. |
+> **Ready to use?** Grab the latest portable executable (no installation needed).
 
-## The SORTITO Solution
+<p align="center">
+  <a href="https://github.com/yourusername/sortito/releases/latest">
+    <img src="https://img.shields.io/badge/⬇️%20Download%20SORTITO%20v1.0-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download">
+  </a>
+</p>
 
-SORTITO solves this problem by:
+---
 
-1. **Scanning recursively** – every subfolder, at any depth, without manual navigation.
-2. **Intelligent detection** – recognises 30+ video and photo extensions (easily extensible).
-3. **Safe organisation** – copies or moves files into clean `videos/` and `photos/` folders.
-4. **User‑friendly GUI** – no command line needed; drag‑and‑drop folder selection.
-5. **Progress feedback** – shows how many files remain and the estimated completion time.
-6. **Duplicate handling** – automatically avoids filename conflicts.
-7. **Optional “others” folder** – keeps everything tidy, even non‑media files.
+## ✨ What is SORTITO?
 
-By using SORTITO, users can **reclaim hours** of manual sorting time and maintain a clean, organised media library with a single click.
+**SORTITO** is a modern desktop application that **recursively scans any folder** (including all subfolders) and automatically sorts your **video** and **photo** files into dedicated `videos/` and `photos/` folders. No more manual dragging – just select a folder and click start.
 
-## Who benefits?
+### Key Features
 
-- **Photographers & videographers** – quickly extract all media from mixed backup drives.
-- **Students & researchers** – separate lecture videos from slides and notes.
-- **Casual users** – clean up the Downloads folder in seconds.
-- **System administrators** – batch‑organise media on shared drives.
-- **Anyone who values a tidy file system.**
+| Feature | Description |
+|---------|-------------|
+| 🌀 **Recursive scan** | Goes through every subfolder, no limit on depth. |
+| 📹 **Smart detection** | Recognises 30+ video & photo formats (easily extensible). |
+| 🔄 **Copy / Move** | Choose to duplicate or relocate files. |
+| 🏷️ **Duplicate handling** | Automatically renames conflicting files (`file_1.mp4`). |
+| 📁 **“Others” folder** | Optionally collect all non‑media files. |
+| 🌗 **Dark / Light theme** | Toggle instantly, follows system preference. |
+| 📊 **Progress + ETA** | Real‑time percentage and estimated time remaining. |
+| ⏹️ **Cancel anytime** | Safe stop – already processed files are kept. |
+| 🪶 **Portable .exe** | Single file, no Python installation required. |
 
-**SORTITO turns chaos into order.**
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="screenshot-light.png" width="45%" alt="Light mode">
+  &nbsp;&nbsp;
+  <img src="screenshot-dark.png" width="45%" alt="Dark mode">
+</p>
+
+---
+
+## 🧰 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,py,git,github,windowsserver&theme=light" />
+</p>
+
+- **Python 3.8+** – Core logic and cross‑platform support.
+- **CustomTkinter** – Modern, flat, rounded GUI.
+- **Pillow (PIL)** – Image handling and icon processing.
+- **PyInstaller** – Bundles everything into a single `.exe`.
+- **Tkinter** – Native file dialogs and base windowing.
+
+---
+
+## 🚀 Quick Start
+
+### Option 1: Run the executable (Windows)
+1. Download `SORTITO.exe` from the [Releases](../../releases) page.
+2. Double‑click to launch – no installation needed.
+3. Select a source folder, choose options, and click **Start Sorting**.
+
+### Option 2: Run from source (Python)
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/sortito.git
+cd sortito
+
+# Install dependencies
+pip install customtkinter pillow
+
+# Run the app
+python media_sorter_gui.py
