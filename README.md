@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/sortito/releases/latest">
+  <a href="https://github.com/GreyHatSonawane/SORTITO/releases/tag/v1.0">
     <img src="https://img.shields.io/badge/Download%20Latest-Exe-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows">
   </a>
-  <a href="https://github.com/yourusername/sortito">
-    <img src="https://img.shields.io/github/stars/yourusername/sortito?style=for-the-badge&logo=github" alt="GitHub stars">
+  <a href="https://github.com/GreyHatSonawane/SORTITO">
+    <img src="https://img.shields.io/github/stars/GreyHatSonawane/SORTITO?style=for-the-badge&logo=github" alt="GitHub stars">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative" alt="MIT License">
@@ -23,7 +23,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Tkinter-GUI-ff69b4?style=flat-square&logo=tkinter" alt="Tkinter">
+  <img src="https://img.shields.io/badge/Tkinter-GUI-ff69b4?style=flat-square" alt="Tkinter">
   <img src="https://img.shields.io/badge/CustomTkinter-Modern-1f425f?style=flat-square" alt="CustomTkinter">
   <img src="https://img.shields.io/badge/Pillow-Images-008cba?style=flat-square&logo=pillow" alt="Pillow">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square" alt="Cross-platform">
@@ -36,7 +36,7 @@
 > **Ready to use?** Grab the latest portable executable (no installation needed).
 
 <p align="center">
-  <a href="https://github.com/yourusername/sortito/releases/latest">
+  <a href="https://github.com/GreyHatSonawane/SORTITO/releases/tag/v1.0">
     <img src="https://img.shields.io/badge/⬇️%20Download%20SORTITO%20v1.0-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download">
   </a>
 </p>
@@ -97,8 +97,8 @@
 ### Option 2: Run from source (Python)
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sortito.git
-cd sortito
+git clone https://github.com/GreyHatSonawane/SORTITO.git
+cd SORTITO
 
 # Install dependencies
 pip install customtkinter pillow
